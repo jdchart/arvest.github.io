@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     import MenuButton from '$lib/components/MenuButton.svelte';
 </script>
 
@@ -14,7 +15,7 @@
         <div class="menu_container">
             <MenuButton 
                 label = "HOME"
-                link = "/"
+                link = "{base}/"
             />
             <MenuButton 
                 label = "SANDBOX"
